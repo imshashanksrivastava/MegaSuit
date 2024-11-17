@@ -65,12 +65,13 @@ public class Seventeen extends AppCompatActivity {
     }
 
     private void toggleMediaPlayer(MediaPlayer mediaPlayer, ImageButton imageButton) {
-        stopAllMediaPlayers(); // Ensure only one media player plays at a time
-
         if (mediaPlayer.isPlaying()) {
+            // If the media player is playing, stop it and reset the image button
             mediaPlayer.pause();
             imageButton.setImageResource(R.drawable.off);
         } else {
+            // Otherwise, stop all players and start the selected media player
+            stopAllMediaPlayers();
             mediaPlayer.start();
             imageButton.setImageResource(R.drawable.on);
         }

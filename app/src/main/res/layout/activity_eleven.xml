@@ -43,9 +43,8 @@
         app:layout_constraintVertical_bias="1.0" />
 
     <LinearLayout
-        android:layout_width="204dp"
-        android:layout_height="750dp"
-        android:layout_marginEnd="61dp"
+        android:layout_width="296dp"
+        android:layout_height="712dp"
         android:orientation="vertical"
         app:layout_constraintEnd_toStartOf="@+id/button34"
         app:layout_constraintStart_toStartOf="parent"
