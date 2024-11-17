@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/td"
+    android:padding="20dp">
+
+    <!-- TextView at the top aligned to the left -->
+    <TextView
+        android:id="@+id/textView6tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Flaunt your\nwords..."
+        android:textColor="#2A2A2A"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+    android:layout_marginTop="40dp"
+    android:layout_marginBottom="20dp"
+    android:fontFamily="cursive"/>
+
+    <!-- EditText to enter text -->
+    <EditText
+        android:id="@+id/editTextText14tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView6tv"
+        android:layout_marginTop="20dp"
+        android:padding="15dp"
+        android:background="@drawable/edit_text_bg"
+        android:hint="Enter the text..."
+        android:textSize="24sp"
+        android:textColor="#333333"
+        android:fontFamily="cursive"/>
+
+    <!-- Button to trigger Text to Speech -->
+    <Button
+        android:id="@+id/button51tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View"
+        android:textColor="#FFFFFF"
+        android:background="#1a918f"
+        android:textSize="20sp"
+        android:layout_below="@id/editTextText14tv"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:padding="15dp"
+        android:elevation="4dp" />
+
+    <!-- Button for Back Action -->
+    <Button
+        android:id="@+id/button52tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>

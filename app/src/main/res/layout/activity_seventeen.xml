@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:background="@drawable/mp"
+    tools:context=".Seventeen">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Media player..."
+        android:textSize="60sp"
+        android:fontFamily="cursive"
+        android:id="@+id/textView7s"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:textColor="#ffffff"
+        android:shadowColor="#6f6f6f"
+        android:textStyle="bold"
+        android:background="#49000000" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Locha-E-Ulfat"
+        android:id="@+id/button53s"
+        android:layout_above="@+id/button54s"
+        android:layout_marginBottom="50dp"
+        android:layout_toStartOf="@+id/button58s"
+        android:textStyle="italic" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lullaby"
+        android:id="@+id/button54s"
+        android:layout_marginBottom="42dp"
+        android:layout_above="@+id/button55s"
+        android:layout_alignParentStart="true"
+        android:layout_alignEnd="@+id/button53s"
+        android:textStyle="italic" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="28 days later"
+        android:id="@+id/button55s"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignEnd="@+id/button54s"
+        android:textStyle="italic" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kaiju"
+        android:id="@+id/button56s"
+        android:layout_marginTop="47dp"
+        android:layout_below="@+id/button55s"
+        android:layout_alignParentStart="true"
+        android:layout_alignEnd="@+id/button55s"
+        android:textStyle="italic" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sun Sathiyaan"
+        android:id="@+id/button57s"
+        android:layout_marginTop="45dp"
+        android:layout_below="@+id/button56s"
+        android:layout_alignParentStart="true"
+        android:layout_alignEnd="@+id/button56s" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:id="@+id/button58s"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton2s"
+        android:layout_alignBottom="@+id/button53s"
+        android:layout_toEndOf="@+id/button53s"
+        android:src="@drawable/off"
+
+        android:layout_alignTop="@+id/button53s" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton3s"
+        android:layout_alignBottom="@+id/button54s"
+        android:layout_toEndOf="@+id/button54s"
+        android:src="@drawable/off"
+        android:layout_alignTop="@+id/button54s" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton4s"
+        android:layout_alignBottom="@+id/button55s"
+        android:layout_toEndOf="@+id/button55s"
+        android:src="@drawable/off"
+        android:layout_alignTop="@+id/button55s" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton5s"
+        android:layout_alignBottom="@+id/button56s"
+        android:layout_toEndOf="@+id/button56s"
+        android:src="@drawable/off"
+        android:layout_alignTop="@+id/button56s" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton6s"
+        android:layout_alignBottom="@+id/button57s"
+        android:layout_toEndOf="@+id/button57s"
+        android:src="@drawable/off"
+        android:layout_alignTop="@+id/button57s" />
+
+</RelativeLayout>

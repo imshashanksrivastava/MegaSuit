@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sb"
+    tools:context=".Fourth">
+
+    <!-- ONLINE Button -->
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="200dp"
+    android:layout_height="200dp"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentTop="true"
+    android:layout_marginStart="60dp"
+    android:layout_marginTop="200dp"
+    android:background="@drawable/rough_edge_background"
+    android:text="ONLINE"
+    android:textSize="24sp"
+    android:textColor="#FFFFFF" />
+
+    <!-- OFFLINE Button -->
+
+    <!-- Go Back Button -->
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="468dp"
+        android:layout_marginEnd="152dp"
+        android:background="@drawable/rough_edge_background"
+        android:text="OFFLINE"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="123dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button8"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="253dp"
+        android:layout_marginTop="123dp"
+        android:layout_marginBottom="52dp"
+        android:background="#656D7A"
+        android:text="Go Back"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp" />
+</RelativeLayout>

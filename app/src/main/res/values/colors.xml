@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="quizBackground">#F5F5F5</color>
+    <color name="questionTextColor">#333333</color>
+    <color name="optionTextColor">#555555</color>
+    <color name="selectedOptionColor">#4CAF50</color>
+    <color name="unselectedOptionColor">#E0E0E0</color>
+    <color name="scoreTextColor">#FF5722</color>
+    <color name="buttonColor">#2196F3</color>
+    <color name="purple">#8692f7</color>
+    <color name="light_purple">#EDE7F6</color>
+    <color name="gray">#9E9E9E</color>
+</resources>

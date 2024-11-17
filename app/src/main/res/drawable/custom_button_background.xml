@@ -1,0 +1,32 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Outer border with pointy and rounded corners -->
+    <item>
+        <shape>
+            <solid android:color="#FFFFFF" /> <!-- White background for the button -->
+            <stroke
+                android:width="6dp"
+                android:color="#4682B4" /> <!-- Sky blue border -->
+            <corners>
+                <top-left android:radius="0dp"/> <!-- Sharp pointy corner -->
+                <top-right android:radius="12dp"/> <!-- Rounded corner -->
+                <bottom-left android:radius="12dp"/> <!-- Rounded corner -->
+                <bottom-right android:radius="0dp"/> <!-- Sharp pointy corner -->
+            </corners>
+        </shape>
+    </item>
+
+    <!-- Inner white background -->
+    <item android:left="6dp" android:top="6dp" android:right="6dp" android:bottom="6dp">
+        <shape>
+            <solid android:color="#FFFFFF" /> <!-- White interior -->
+            <corners>
+                <top-left android:radius="0dp" />
+                <top-right android:radius="12dp" />
+                <bottom-left android:radius="12dp" />
+                <bottom-right android:radius="0dp" />
+            </corners>
+        </shape>
+    </item>
+
+</layer-list>

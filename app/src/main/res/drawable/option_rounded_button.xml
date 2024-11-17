@@ -1,0 +1,12 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#4CAF50" /> <!-- Updated color for a more professional look -->
+    <corners android:radius="16dp" /> <!-- Adjust corner radius for rounded edges -->
+    <padding
+        android:left="8dp"
+        android:top="8dp"
+        android:right="8dp"
+        android:bottom="8dp" />
+    <stroke
+        android:width="2dp"
+        android:color="#388E3C" /> <!-- Add an optional border for enhanced styling -->
+</shape>

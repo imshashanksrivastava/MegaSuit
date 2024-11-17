@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "232961009373",
+    "project_id": "megasuit-419fa",
+    "storage_bucket": "megasuit-419fa.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:232961009373:android:c011ec9dc69ae2953bdd34",
+        "android_client_info": {
+          "package_name": "com.example.megasuit"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBlJx5RWzR8_6a1MXVrBICuixwoA_rZDPg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,122 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/quizBackground"
+    android:gravity="center">
+
+    <!-- Quiz Container -->
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:background="@color/white"
+        app:cardCornerRadius="12dp"
+        app:cardElevation="6dp"
+        app:cardBackgroundColor="@color/white">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <!-- Question Text -->
+            <TextView
+                android:id="@+id/questionTextsm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:text="Question"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/questionTextColor"
+                android:gravity="center" />
+
+            <!-- Options Group -->
+            <RadioGroup
+                android:id="@+id/optionsGroupsm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginBottom="16dp">
+
+                <!-- Option 1 -->
+                <RadioButton
+                    android:id="@+id/option1sm"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:padding="12dp"
+                    android:background="@drawable/quiz_radio_button_background"
+                    android:textColor="@color/optionTextColor"
+                    android:button="@android:color/transparent"
+                    android:textSize="16sp" />
+
+                <!-- Option 2 -->
+                <RadioButton
+                    android:id="@+id/option2sm"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:padding="12dp"
+                    android:background="@drawable/quiz_radio_button_background"
+                    android:textColor="@color/optionTextColor"
+                    android:button="@android:color/transparent"
+                    android:textSize="16sp" />
+
+                <!-- Option 3 -->
+                <RadioButton
+                    android:id="@+id/option3sm"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:padding="12dp"
+                    android:background="@drawable/quiz_radio_button_background"
+                    android:textColor="@color/optionTextColor"
+                    android:button="@android:color/transparent"
+                    android:textSize="16sp" />
+
+                <!-- Option 4 -->
+                <RadioButton
+                    android:id="@+id/option4sm"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:padding="12dp"
+                    android:background="@drawable/quiz_radio_button_background"
+                    android:textColor="@color/optionTextColor"
+                    android:button="@android:color/transparent"
+                    android:textSize="16sp" />
+            </RadioGroup>
+
+            <!-- Score Display -->
+            <TextView
+                android:id="@+id/scoreTextsm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:text="Score: 0/0"
+                android:textColor="@color/scoreTextColor"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <!-- Next Button -->
+    <Button
+        android:id="@+id/nextButtonsm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Next"
+        android:background="@drawable/quiz_button_background"
+        android:textColor="@color/white"
+        android:padding="12dp"
+        android:textStyle="bold"
+        android:elevation="4dp" />
+</LinearLayout>

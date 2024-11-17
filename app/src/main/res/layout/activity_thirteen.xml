@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@drawable/bro"
+    tools:context=".Thirteen">
+
+    <!-- EditText for URL input with improved styling -->
+    <EditText
+        android:id="@+id/editTextText14"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/web_edit_text_background"
+        android:ems="10"
+        android:hint="Enter URL to Explore"
+        android:inputType="textUri"
+        android:padding="12dp"
+        android:text="https://"
+        android:textSize="16sp" />
+
+    <!-- WebView for displaying content -->
+    <WebView
+        android:id="@+id/web"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:layout_below="@id/editTextText14"
+        android:layout_marginTop="20dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp" />
+
+    <!-- Search Button -->
+    <Button
+        android:id="@+id/button35"
+        android:layout_width="145dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/web"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="114dp"
+        android:layout_marginTop="51dp"
+        android:layout_marginEnd="114dp"
+        android:background="@drawable/custom_button_background"
+        android:padding="12dp"
+        android:text="Search"
+        android:textColor="#1E3A8A"
+    android:textSize="20sp" />
+
+    <!-- Go Back Button -->
+    <Button
+        android:id="@+id/button36"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/web"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="185dp"
+        android:layout_marginEnd="23dp"
+        android:background="@drawable/custom_button_background"
+        android:padding="12dp"
+        android:text="Back"
+        android:textColor="#1E3A8A"
+    android:textSize="16sp" />
+</RelativeLayout>
